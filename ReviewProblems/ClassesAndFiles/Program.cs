@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace ClassesAndFiles
 {
@@ -7,6 +8,7 @@ namespace ClassesAndFiles
     {
         static void Main(string[] args)
         {
+            string[] lines = File.ReadAllLines("");
             List<Student> students = new List<Student>();
             Student stud1 = new Student();
             stud1.name = "Micah";
