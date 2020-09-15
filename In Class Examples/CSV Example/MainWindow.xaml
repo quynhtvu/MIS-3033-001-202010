@@ -12,10 +12,10 @@
             <RowDefinition Height="89*"/>
         </Grid.RowDefinitions>
         <Label x:Name="lblFilePath" Content="Please enter the file path:" HorizontalAlignment="Left" Margin="56,111,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnValidate" Content="Validate" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="659,114,0,0" Click="btnValidate_Click_1"/>
-        <Button x:Name="btnProcess" Content="Process File" HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Margin="56,171,0,0" IsEnabled="False" Height="38"/>
+        <Button x:Name="btnValidate" Content="Validate" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="659,114,0,0" Click="btnValidate_Click"/>
+        <Button x:Name="btnProcess" Content="Process File" HorizontalAlignment="Left" VerticalAlignment="Top" Width="144" Margin="56,171,0,0" IsEnabled="False" Height="38" Click="btnProcess_Click"/>
         <TextBox x:Name="txtFilePath" HorizontalAlignment="Left" Height="23" Margin="205,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="426"/>
-        <ListBox x:Name="lstFile" Margin="0,257,9.6,10" Grid.RowSpan="2" HorizontalAlignment="Right" Width="774"/>
+        <ListBox x:Name="lstFile" Margin="10,257,9.6,10" Grid.RowSpan="2"/>
 
     </Grid>
 </Window>
