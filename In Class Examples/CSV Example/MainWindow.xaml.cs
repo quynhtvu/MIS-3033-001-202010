@@ -40,7 +40,7 @@ namespace CSV_Example
             }
             else
             {
-                MessageBox.Show("Invalid file path. Plese try again.", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Invalid file path. Please try again.", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
                 txtFilePath.Clear();
                 //txtFilePath.Text = "";
                 //txtFilePath.Text = string.Empty;
