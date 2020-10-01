@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSV Example", "CSV Example\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_RickAndMorty", "JSON_RickAndMorty\JSON_RickAndMorty.csproj", "{1957DFC7-6F6E-4DD2-9B35-2E4FC1A20F07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_GOT", "JSON_GOT\JSON_GOT.csproj", "{A1B96AC1-782B-4731-8EB5-DF170695FD92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1957DFC7-6F6E-4DD2-9B35-2E4FC1A20F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1957DFC7-6F6E-4DD2-9B35-2E4FC1A20F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1957DFC7-6F6E-4DD2-9B35-2E4FC1A20F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B96AC1-782B-4731-8EB5-DF170695FD92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B96AC1-782B-4731-8EB5-DF170695FD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B96AC1-782B-4731-8EB5-DF170695FD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B96AC1-782B-4731-8EB5-DF170695FD92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
